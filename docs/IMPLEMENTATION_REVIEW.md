@@ -1,5 +1,7 @@
 # 実装レビュー
 
+この文書はMVP（Ver.0.1）完了時点の記録。後付けメディアの変更と検証は [MEDIA_EXTENSION_REVIEW.md](MEDIA_EXTENSION_REVIEW.md) を参照。
+
 ## 総合判定
 Think → Plan → Build → Test → Review の順でMVPを完了。最初のローカルコミットは設計文書のみで、制作前自己レビュー後にコードを作成した。GitHubでも設計コミットと実装コミットを分ける。mainは空リポジトリの比較元となる案内READMEだけとし、成果を自動マージしない。
 

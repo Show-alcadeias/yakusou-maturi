@@ -1,0 +1,23 @@
+{
+  "assets": {
+    "bgm.mountain": "res://assets/media/mountain.wav",
+    "bgm.discovery": "res://assets/media/discovery.wav",
+    "background.town": "res://assets/media/town.svg",
+    "background.mountain": "res://assets/media/mountain.svg",
+    "background.stream": "res://assets/media/stream.svg"
+  },
+  "events": {
+    "title": {"bgm": "", "background": "background.town"},
+    "prologue": {"bgm": "", "background": "background.town"},
+    "approach": {"bgm": "bgm.mountain", "background": "background.mountain"},
+    "explore": {"bgm": "bgm.mountain", "background": "background.mountain"},
+    "meadow": {"bgm": "bgm.mountain", "background": "background.mountain"},
+    "stream": {"bgm": "bgm.mountain", "background": "background.stream"},
+    "ridge": {"bgm": "bgm.mountain", "background": "background.mountain"},
+    "discovery": {"bgm": "bgm.discovery", "background": "background.mountain"},
+    "aid": {"bgm": "bgm.discovery", "background": "background.mountain"},
+    "descent": {"bgm": "bgm.mountain", "background": "background.mountain"},
+    "appraisal": {"bgm": "bgm.discovery", "background": "background.town"},
+    "ending": {"bgm": "", "background": "background.town"}
+  }
+}
