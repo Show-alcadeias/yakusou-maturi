@@ -1,6 +1,6 @@
 # テスト結果
 
-実施日：2026-11-14（日本時間）。成功と未検証を分けて記録する。
+実施日：2026-11-13（日本時間）。成功と未検証を分けて記録する。
 
 ## 環境
 Linux x86_64、Godot 4.7.2 stable official（ed1daf0bf）、DM v4.2.0。GUIはXorg dummy画面＋Mesa llvmpipe（CPU描画）、WebはChromium＋SwiftShader。専用GPUは使用していない。フォントは同梱Noto Sans JP、ウェイト400を明示。
