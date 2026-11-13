@@ -22,3 +22,8 @@ DM公式README（v4.2.0）はGodot 4.6+対応を明記。追加のC#/.NET環境�
 - https://github.com/nathanhoad/godot_dialogue_manager/blob/v4.2.0/docs/API.md
 
 Godot zip SHA512：`9aa00f7a605200940bce3027a567b782f49bd8e940dd06ae9e987bd65aee1b1467edd56ed84fcdcbdd44354bf613bdbb4e5d2913e925850368e150c59ed54c65`
+
+フォント固定元：google/fonts コミット `66a36c8c94b1a5d992ee4e7f392fccfe4945767c`、`ofl/notosansjp/NotoSansJP[wght].ttf`。同梱名 `assets/fonts/NotoSansJP.ttf`。ライセンスは同ディレクトリのOFL.txt。
+フォントSHA256：`c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f`
+
+エクスポートテンプレートもGodot 4.7.2公式配布に固定し、同リリースのSHA512と照合済み。Linux x86_64とWebスレッド無効版を使用。GodotのMIT本文および第三者ライセンス：https://godotengine.org/license/ 、https://godotengine.org/license/third-party/ 。ゲーム固有コード・シナリオ全体の公開ライセンスは作者判断とし、新たに付与しない。
