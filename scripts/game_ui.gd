@@ -3,7 +3,7 @@ extends Control
 
 const FONT = preload("res://assets/fonts/NotoSansJP.ttf")
 const FlowScript = preload("res://scripts/game_flow.gd")
-const MediaScript = preload("res://scripts/media_adapter.gd")
+@export_file("*.tscn") var media_scene_path: String = "res://scenes/media_layer.tscn"
 const INK := Color("e8eadc")
 const MUTED := Color("a6b7a5")
 const ACCENT := Color("d1dca2")
@@ -20,6 +20,7 @@ var notice: Label
 var continue_button: Button
 var title_note: Label
 var return_button: Button
+var media_layer: Node
 
 func _ready() -> void:
 	_build_theme()
@@ -32,10 +33,20 @@ func _ready() -> void:
 	flow.state_changed.connect(_update_status)
 	flow.run_finished.connect(_on_finished)
 	flow.problem.connect(func(message: String): notice.text = message)
-	var media := MediaScript.new()
-	add_child(media)
-	flow.event_started.connect(media.on_event_started)
+	_attach_media()
 	_show_title()
+
+func _attach_media() -> void:
+	if media_scene_path.is_empty() or not ResourceLoader.exists(media_scene_path):
+		return
+	var scene := load(media_scene_path) as PackedScene
+	if scene == null:
+		return
+	media_layer = scene.instantiate()
+	add_child(media_layer)
+	move_child(media_layer, 0)
+	if media_layer.has_method("bind_flow"):
+		media_layer.bind_flow(flow)
 
 func _build_theme() -> void:
 	var skin := Theme.new()
@@ -158,6 +169,8 @@ func _button(value: String, action: Callable) -> Button:
 func _show_title() -> void:
 	if flow.busy:
 		return
+	if is_instance_valid(media_layer) and media_layer.has_method("show_title"):
+		media_layer.show_title()
 	title_view.show()
 	game_view.hide()
 	notice.text = ""
