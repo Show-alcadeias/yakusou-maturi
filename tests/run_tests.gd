@@ -68,7 +68,7 @@ func _walk(depth: int, passages: Array) -> void:
 		var expected: String = {"empty": "【手ぶらの救助者】", "modest": "【小さな収穫】", "excellent": "【救助と収穫】"}[state.harvest_grade()]
 		check(expected in text, "薬草評価が結末の本文へ反映")
 		check(("救出は日暮れ間際" in text) == (state.delay >= 3), "救出経過が結末の本文へ反映")
-		check(("袋のふくらみ" in text) == (state.priority == "herbs"), "最初の方針が発見時の会話へ反映")
+		check(("君も素材を見ながら来たのか" in text) == (state.priority == "herbs"), "最初の方針が発見時の会話へ反映")
 		check(("目印は、ちゃんと役に立った" in text) == state.shortcut_used, "近道履歴が発見時の本文へ反映")
 		check(("岩場で回収したロープが救助を支えた" in text) == (state.aid_method == "rope"), "救助手順が本文へ反映")
 		return
