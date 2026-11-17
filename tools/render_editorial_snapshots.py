@@ -52,5 +52,5 @@ if __name__ == "__main__":
             results[phase] = render(json.loads(source.read_text()), phase)
             (OUTPUT / (phase + ".md")).write_text(results[phase])
     if len(results) == 2:
-        diff = "".join(difflib.unified_diff(results["before"].splitlines(True), results["after"].splitlines(True), fromfile="before.md", tofile="after.md"))
+        diff = "".join(difflib.unified_diff(results["before"].splitlines(True), results["after"].splitlines(True), fromfile="before.md", tofile="after.md", n=0))
         (OUTPUT / "changes.diff").write_text(diff)
