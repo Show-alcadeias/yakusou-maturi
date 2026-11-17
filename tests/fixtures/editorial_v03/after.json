@@ -1,0 +1,2316 @@
+{
+	"routes": [
+		{
+			"grade": "empty",
+			"id": "fast_search",
+			"state": {
+				"aid_method": "support",
+				"delay": 0,
+				"herbs": 0,
+				"history": [
+					"priority_search",
+					"aid_support",
+					"return"
+				],
+				"priority": "search",
+				"quality": 0,
+				"rescued": true,
+				"rope_found": false,
+				"search_effort": 1,
+				"shortcut_used": false,
+				"trail_known": false,
+				"visited": []
+			},
+			"steps": [
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月に一度、街は「薬草祭り」でにぎわう。山で採った薬草の質と量を競う、実に健康的な祭りだ。山から帰って来られれば。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術師レオは考えた。「自分で素材を回収すれば、仕入れの無駄がなくなる」。調合台の上なら、だいたい正しい計算だった。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "彼は山で消息を絶ち、家族は捜索願を出した。冒険者ムハンマドは、何となくその依頼を引き受けた。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "人を一人。余裕があれば薬草も。まずは山へ行こう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "登山口には「日暮れまでに戻ること」とある。その下に、祭りの優勝賞品の案内。注意書きの配置には改善の余地がある。"
+				},
+				{
+					"choice": 0,
+					"event": "approach",
+					"responses": [
+						"足跡を確かめる。捜索を優先する",
+						"薬草の分布を見ながら進む。採取を優先する"
+					],
+					"speaker": "語り",
+					"text": "道の脇には薬草、ぬかるみには一人分の足跡がある。どちらに目を向けよう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡は山腹へ続いていた。薬草は逃げない。遭難者も、できれば動かないでほしい。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 3,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "",
+					"text": ""
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡の先で声をかけ続けると、岩の棚から返事があった。捜索とは、ときに地道に声を張る仕事だ。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "もう捜索が来たのか。助かった。まだ明るいうちに帰れそうだね。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "先に足跡を追ってくれたのか。その判断は正しい。大変正しい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "薬草は種類ごとに包んだほうが傷みにくい。見分けは任せてくれ。ただ、帰り道は任せたい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術の知識は確かだった。山道が研究室ほど平らでないことを、見積もりに入れ忘れただけだ。"
+				},
+				{
+					"choice": 1,
+					"event": "aid",
+					"responses": [
+						"レオに応急用の湿布を調合してもらう",
+						"時間をかけ、肩を貸して道まで戻す"
+					],
+					"speaker": "語り",
+					"text": "レオは足をひねっているが、意識ははっきりしている。棚から道まで、支えがあれば戻れそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "語り",
+					"text": "一歩ずつ、休みながら引き返した。派手さはないが、救出の評価に派手さという欄はない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰路は下りだ。楽になるかと思えば、足元を見る仕事は上りと変わらない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "手ぶらで来てくれたんだね。"
+				},
+				{
+					"choice": 0,
+					"event": "descent",
+					"responses": [
+						"休憩を取りつつ、そのまま街へ向かう"
+					],
+					"speaker": "ムハンマド",
+					"text": "帰りは一人増える。荷物としては十分だ。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "余計な寄り道はせず、歩ける速さで下った。街の屋根が見えたときには、二人とも少し口数が増えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "祭りの受付へ戻る。レオの無事は家族にも伝えられた。捜索願の紙は、ようやく役目を終えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "薬草の提出はなし。採取実績は空欄だが、捜索依頼のほうには「完了」と記された。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "素材の仕入れ計画は書き直すよ。次は、帰路の欄を先に埋める。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "【手ぶらの救助者】薬草は持ち帰らなかった。人を一人連れ帰ったのだから、空振りではないだろう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "捜索の遅れは小さく、明るいうちに救出できた。山にいる時間は、短いほうがありがたい日もある。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "肩を貸して進んだ、地道な救助だった。近道がなくても、一歩ずつなら帰って来られる。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月後には、また薬草祭りが来る。その前に、レオが登山口の注意書きを読むことを願おう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "――どうでもいい冒険、おしまい。"
+				}
+			]
+		},
+		{
+			"grade": "excellent",
+			"id": "late_herbs",
+			"state": {
+				"aid_method": "support",
+				"delay": 5,
+				"herbs": 7,
+				"history": [
+					"priority_herbs",
+					"meadow_gather",
+					"stream_gather",
+					"ridge_gather",
+					"aid_support",
+					"return"
+				],
+				"priority": "herbs",
+				"quality": 3,
+				"rescued": true,
+				"rope_found": false,
+				"search_effort": 0,
+				"shortcut_used": false,
+				"trail_known": false,
+				"visited": [
+					"meadow",
+					"stream",
+					"ridge"
+				]
+			},
+			"steps": [
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月に一度、街は「薬草祭り」でにぎわう。山で採った薬草の質と量を競う、実に健康的な祭りだ。山から帰って来られれば。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術師レオは考えた。「自分で素材を回収すれば、仕入れの無駄がなくなる」。調合台の上なら、だいたい正しい計算だった。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "彼は山で消息を絶ち、家族は捜索願を出した。冒険者ムハンマドは、何となくその依頼を引き受けた。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "人を一人。余裕があれば薬草も。まずは山へ行こう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "登山口には「日暮れまでに戻ること」とある。その下に、祭りの優勝賞品の案内。注意書きの配置には改善の余地がある。"
+				},
+				{
+					"choice": 1,
+					"event": "approach",
+					"responses": [
+						"足跡を確かめる。捜索を優先する",
+						"薬草の分布を見ながら進む。採取を優先する"
+					],
+					"speaker": "語り",
+					"text": "道の脇には薬草、ぬかるみには一人分の足跡がある。どちらに目を向けよう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "良い株の位置を覚えながら登る。効率のよい寄り道だ。効率のよい捜索かどうかは、あとで考える。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 0,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "",
+					"text": ""
+				},
+				{
+					"choice": -1,
+					"event": "meadow",
+					"responses": [],
+					"speaker": "語り",
+					"text": "草地に薬草が群れている。摘みやすい高さ、運びやすい量。祭りに参加する植物として模範的だ。"
+				},
+				{
+					"choice": 0,
+					"event": "meadow",
+					"responses": [
+						"良い株を選んで採る",
+						"採取を控え、踏み跡を調べる"
+					],
+					"speaker": "語り",
+					"text": "その間を、踏みつぶされた草が細く横切っている。"
+				},
+				{
+					"choice": -1,
+					"event": "meadow",
+					"responses": [],
+					"speaker": "語り",
+					"text": "袋に三束の薬草を収めた。選別は順調、捜索はそのぶんお休みになった。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 0,
+					"event": "explore",
+					"responses": [
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "語り",
+					"text": "分かれ道まで戻った。まだ見ていない場所と、足跡の続きがある。"
+				},
+				{
+					"choice": -1,
+					"event": "stream",
+					"responses": [],
+					"speaker": "語り",
+					"text": "沢のそばで白い石が三つ並んでいる。苔に隠れかけているが、人の手で置かれたものだ。"
+				},
+				{
+					"choice": 1,
+					"event": "stream",
+					"responses": [
+						"石の目印と周囲の足跡を調べる",
+						"水際の薬草を二束採る"
+					],
+					"speaker": "語り",
+					"text": "水際には採りやすい薬草もある。濡れた葉を、そのまま袋へ詰めるわけにはいかなさそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "stream",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二束を袋へ。水気を払うのに手間取り、石の並びは調べずに戻った。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 0,
+					"event": "explore",
+					"responses": [
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "語り",
+					"text": "分かれ道まで戻った。まだ見ていない場所と、足跡の続きがある。"
+				},
+				{
+					"choice": 1,
+					"event": "ridge",
+					"responses": [
+						"ロープを回収し、周囲を調べる",
+						"足場に気をつけて紫の薬草を採る"
+					],
+					"speaker": "語り",
+					"text": "岩場の枝に、細いロープが引っかかっている。下には見慣れない紫色の薬草。どちらも誰かが欲しがりそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "ridge",
+					"responses": [],
+					"speaker": "語り",
+					"text": "良質な二束を採った。足場を選んで遠回りしたので、時間もそれなりに採られた。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡の先で声をかけ続けると、岩の棚から返事があった。捜索とは、ときに地道に声を張る仕事だ。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "助かった……。日が傾くたびに、今日の計画を下方修正していたところだ。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "君も素材を見ながら来たのか。わかるよ。道の脇にも、いい株があっただろう。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "そこで意気投合すると、捜索願が二枚になる。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "薬草は種類ごとに包んだほうが傷みにくい。見分けは任せてくれ。ただ、帰り道は任せたい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術の知識は確かだった。山道が研究室ほど平らでないことを、見積もりに入れ忘れただけだ。"
+				},
+				{
+					"choice": 1,
+					"event": "aid",
+					"responses": [
+						"レオに応急用の湿布を調合してもらう",
+						"時間をかけ、肩を貸して道まで戻す"
+					],
+					"speaker": "語り",
+					"text": "レオは足をひねっているが、意識ははっきりしている。棚から道まで、支えがあれば戻れそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "語り",
+					"text": "一歩ずつ、休みながら引き返した。派手さはないが、救出の評価に派手さという欄はない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰路は下りだ。楽になるかと思えば、足元を見る仕事は上りと変わらない。"
+				},
+				{
+					"choice": 1,
+					"event": "descent",
+					"responses": [
+						"歩ける場所で休み、レオに薬草を選別してもらう",
+						"休憩を取りつつ、そのまま街へ向かう"
+					],
+					"speaker": "レオ",
+					"text": "袋の中、少し見せてくれるか。混ざった葉を除けば、持ち帰るあいだも傷みにくい。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "余計な寄り道はせず、歩ける速さで下った。街の屋根が見えたときには、二人とも少し口数が増えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "祭りの受付へ戻る。レオの無事は家族にも伝えられた。捜索願の紙は、ようやく役目を終えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "薬草は量も質も十分。受付の評価欄に、気持ちのよい丸が並ぶ。救助のついでとしては上出来だ。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "素材の仕入れ計画は書き直すよ。次は、帰路の欄を先に埋める。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "【救助と収穫】遭難者も薬草も、無事に街へ。祭りの成果としては、ずいぶん欲張りな帰還になった。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "救出は日暮れ間際。採取に使った時間のぶん、家族を長く待たせた。次の祭りには、この順番も検討しよう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "肩を貸して進んだ、地道な救助だった。近道がなくても、一歩ずつなら帰って来られる。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月後には、また薬草祭りが来る。その前に、レオが登山口の注意書きを読むことを願おう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "――どうでもいい冒険、おしまい。"
+				}
+			]
+		},
+		{
+			"grade": "empty",
+			"id": "rope_rescue",
+			"state": {
+				"aid_method": "rope",
+				"delay": 0,
+				"herbs": 0,
+				"history": [
+					"priority_search",
+					"meadow_search",
+					"stream_search",
+					"ridge_search",
+					"aid_rope",
+					"return"
+				],
+				"priority": "search",
+				"quality": 0,
+				"rescued": true,
+				"rope_found": true,
+				"search_effort": 4,
+				"shortcut_used": false,
+				"trail_known": true,
+				"visited": [
+					"meadow",
+					"stream",
+					"ridge"
+				]
+			},
+			"steps": [
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月に一度、街は「薬草祭り」でにぎわう。山で採った薬草の質と量を競う、実に健康的な祭りだ。山から帰って来られれば。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術師レオは考えた。「自分で素材を回収すれば、仕入れの無駄がなくなる」。調合台の上なら、だいたい正しい計算だった。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "彼は山で消息を絶ち、家族は捜索願を出した。冒険者ムハンマドは、何となくその依頼を引き受けた。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "人を一人。余裕があれば薬草も。まずは山へ行こう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "登山口には「日暮れまでに戻ること」とある。その下に、祭りの優勝賞品の案内。注意書きの配置には改善の余地がある。"
+				},
+				{
+					"choice": 0,
+					"event": "approach",
+					"responses": [
+						"足跡を確かめる。捜索を優先する",
+						"薬草の分布を見ながら進む。採取を優先する"
+					],
+					"speaker": "語り",
+					"text": "道の脇には薬草、ぬかるみには一人分の足跡がある。どちらに目を向けよう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡は山腹へ続いていた。薬草は逃げない。遭難者も、できれば動かないでほしい。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 0,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "",
+					"text": ""
+				},
+				{
+					"choice": -1,
+					"event": "meadow",
+					"responses": [],
+					"speaker": "語り",
+					"text": "草地に薬草が群れている。摘みやすい高さ、運びやすい量。祭りに参加する植物として模範的だ。"
+				},
+				{
+					"choice": 1,
+					"event": "meadow",
+					"responses": [
+						"良い株を選んで採る",
+						"採取を控え、踏み跡を調べる"
+					],
+					"speaker": "語り",
+					"text": "その間を、踏みつぶされた草が細く横切っている。"
+				},
+				{
+					"choice": -1,
+					"event": "meadow",
+					"responses": [],
+					"speaker": "語り",
+					"text": "踏み跡の先に、滑った靴の跡がある。景色を楽しむための歩幅ではなさそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 0,
+					"event": "explore",
+					"responses": [
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "語り",
+					"text": "分かれ道まで戻った。まだ見ていない場所と、足跡の続きがある。"
+				},
+				{
+					"choice": -1,
+					"event": "stream",
+					"responses": [],
+					"speaker": "語り",
+					"text": "沢のそばで白い石が三つ並んでいる。苔に隠れかけているが、人の手で置かれたものだ。"
+				},
+				{
+					"choice": 0,
+					"event": "stream",
+					"responses": [
+						"石の目印と周囲の足跡を調べる",
+						"水際の薬草を二束採る"
+					],
+					"speaker": "語り",
+					"text": "水際には採りやすい薬草もある。濡れた葉を、そのまま袋へ詰めるわけにはいかなさそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "stream",
+					"responses": [],
+					"speaker": "語り",
+					"text": "石の脇に「沢を渡らず、上流の棚へ」と刻まれていた。薬品瓶の底で削ったような跡。近道の見当がついた。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 0,
+					"event": "explore",
+					"responses": [
+						"岩場の落とし物を調べる",
+						"沢で見た目印をたどり、近道を使う",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "語り",
+					"text": "分かれ道まで戻った。まだ見ていない場所と、足跡の続きがある。"
+				},
+				{
+					"choice": 0,
+					"event": "ridge",
+					"responses": [
+						"ロープを回収し、周囲を調べる",
+						"足場に気をつけて紫の薬草を採る"
+					],
+					"speaker": "語り",
+					"text": "岩場の枝に、細いロープが引っかかっている。下には見慣れない紫色の薬草。どちらも誰かが欲しがりそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "ridge",
+					"responses": [],
+					"speaker": "語り",
+					"text": "結び目は固いが、枝への掛け方が甘い。持ち主は結び方だけ予習したらしい。ロープはまだ使える。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "調べた跡をたどった先に、岩の棚が見えた。呼びかけると、ようやく返事が聞こえた。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "もう捜索が来たのか。助かった。まだ明るいうちに帰れそうだね。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "先に足跡を追ってくれたのか。その判断は正しい。大変正しい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "薬草は種類ごとに包んだほうが傷みにくい。見分けは任せてくれ。ただ、帰り道は任せたい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術の知識は確かだった。山道が研究室ほど平らでないことを、見積もりに入れ忘れただけだ。"
+				},
+				{
+					"choice": 0,
+					"event": "aid",
+					"responses": [
+						"拾ったロープで支えを作る",
+						"レオに応急用の湿布を調合してもらう",
+						"時間をかけ、肩を貸して道まで戻す"
+					],
+					"speaker": "語り",
+					"text": "レオは足をひねっているが、意識ははっきりしている。棚から道まで、支えがあれば戻れそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "結び方は合っていたんだ。掛ける場所が、少し植物学的すぎた。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "語り",
+					"text": "今度は丈夫な岩に掛けた。レオを道まで引き上げ、ロープを回収する。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰路は下りだ。楽になるかと思えば、足元を見る仕事は上りと変わらない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "手ぶらで来てくれたんだね。"
+				},
+				{
+					"choice": 0,
+					"event": "descent",
+					"responses": [
+						"休憩を取りつつ、そのまま街へ向かう"
+					],
+					"speaker": "ムハンマド",
+					"text": "帰りは一人増える。荷物としては十分だ。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "余計な寄り道はせず、歩ける速さで下った。街の屋根が見えたときには、二人とも少し口数が増えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "祭りの受付へ戻る。レオの無事は家族にも伝えられた。捜索願の紙は、ようやく役目を終えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "薬草の提出はなし。採取実績は空欄だが、捜索依頼のほうには「完了」と記された。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "素材の仕入れ計画は書き直すよ。次は、帰路の欄を先に埋める。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "【手ぶらの救助者】薬草は持ち帰らなかった。人を一人連れ帰ったのだから、空振りではないだろう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "捜索の遅れは小さく、明るいうちに救出できた。山にいる時間は、短いほうがありがたい日もある。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "岩場で回収したロープが救助を支えた。調べた場所が、ちゃんと帰り道につながった。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月後には、また薬草祭りが来る。その前に、レオが登山口の注意書きを読むことを願おう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "――どうでもいい冒険、おしまい。"
+				}
+			]
+		},
+		{
+			"grade": "empty",
+			"id": "alchemy_rescue",
+			"state": {
+				"aid_method": "alchemy",
+				"delay": 0,
+				"herbs": 0,
+				"history": [
+					"priority_search",
+					"aid_alchemy",
+					"return"
+				],
+				"priority": "search",
+				"quality": 0,
+				"rescued": true,
+				"rope_found": false,
+				"search_effort": 1,
+				"shortcut_used": false,
+				"trail_known": false,
+				"visited": []
+			},
+			"steps": [
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月に一度、街は「薬草祭り」でにぎわう。山で採った薬草の質と量を競う、実に健康的な祭りだ。山から帰って来られれば。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術師レオは考えた。「自分で素材を回収すれば、仕入れの無駄がなくなる」。調合台の上なら、だいたい正しい計算だった。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "彼は山で消息を絶ち、家族は捜索願を出した。冒険者ムハンマドは、何となくその依頼を引き受けた。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "人を一人。余裕があれば薬草も。まずは山へ行こう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "登山口には「日暮れまでに戻ること」とある。その下に、祭りの優勝賞品の案内。注意書きの配置には改善の余地がある。"
+				},
+				{
+					"choice": 0,
+					"event": "approach",
+					"responses": [
+						"足跡を確かめる。捜索を優先する",
+						"薬草の分布を見ながら進む。採取を優先する"
+					],
+					"speaker": "語り",
+					"text": "道の脇には薬草、ぬかるみには一人分の足跡がある。どちらに目を向けよう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡は山腹へ続いていた。薬草は逃げない。遭難者も、できれば動かないでほしい。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 3,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "",
+					"text": ""
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡の先で声をかけ続けると、岩の棚から返事があった。捜索とは、ときに地道に声を張る仕事だ。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "もう捜索が来たのか。助かった。まだ明るいうちに帰れそうだね。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "先に足跡を追ってくれたのか。その判断は正しい。大変正しい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "薬草は種類ごとに包んだほうが傷みにくい。見分けは任せてくれ。ただ、帰り道は任せたい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術の知識は確かだった。山道が研究室ほど平らでないことを、見積もりに入れ忘れただけだ。"
+				},
+				{
+					"choice": 0,
+					"event": "aid",
+					"responses": [
+						"レオに応急用の湿布を調合してもらう",
+						"時間をかけ、肩を貸して道まで戻す"
+					],
+					"speaker": "語り",
+					"text": "レオは足をひねっているが、意識ははっきりしている。棚から道まで、支えがあれば戻れそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "手持ちの試薬なら、冷やす湿布が作れる。混ぜる順番だけは守ってくれ。ここは私の専門だ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "語り",
+					"text": "正確な指示で湿布ができた。痛みが和らいだレオに肩を貸し、慎重に道へ戻る。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰路は下りだ。楽になるかと思えば、足元を見る仕事は上りと変わらない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "手ぶらで来てくれたんだね。"
+				},
+				{
+					"choice": 0,
+					"event": "descent",
+					"responses": [
+						"休憩を取りつつ、そのまま街へ向かう"
+					],
+					"speaker": "ムハンマド",
+					"text": "帰りは一人増える。荷物としては十分だ。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "余計な寄り道はせず、歩ける速さで下った。街の屋根が見えたときには、二人とも少し口数が増えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "祭りの受付へ戻る。レオの無事は家族にも伝えられた。捜索願の紙は、ようやく役目を終えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "薬草の提出はなし。採取実績は空欄だが、捜索依頼のほうには「完了」と記された。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "素材の仕入れ計画は書き直すよ。次は、帰路の欄を先に埋める。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "【手ぶらの救助者】薬草は持ち帰らなかった。人を一人連れ帰ったのだから、空振りではないだろう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "捜索の遅れは小さく、明るいうちに救出できた。山にいる時間は、短いほうがありがたい日もある。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰還を支えたのはレオの調合だった。遭難した理由と、彼の腕前は、別々に評価してよさそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月後には、また薬草祭りが来る。その前に、レオが登山口の注意書きを読むことを願おう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "――どうでもいい冒険、おしまい。"
+				}
+			]
+		},
+		{
+			"grade": "empty",
+			"id": "herb_priority_empty",
+			"state": {
+				"aid_method": "support",
+				"delay": 1,
+				"herbs": 0,
+				"history": [
+					"priority_herbs",
+					"aid_support",
+					"return"
+				],
+				"priority": "herbs",
+				"quality": 0,
+				"rescued": true,
+				"rope_found": false,
+				"search_effort": 0,
+				"shortcut_used": false,
+				"trail_known": false,
+				"visited": []
+			},
+			"steps": [
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月に一度、街は「薬草祭り」でにぎわう。山で採った薬草の質と量を競う、実に健康的な祭りだ。山から帰って来られれば。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術師レオは考えた。「自分で素材を回収すれば、仕入れの無駄がなくなる」。調合台の上なら、だいたい正しい計算だった。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "彼は山で消息を絶ち、家族は捜索願を出した。冒険者ムハンマドは、何となくその依頼を引き受けた。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "人を一人。余裕があれば薬草も。まずは山へ行こう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "登山口には「日暮れまでに戻ること」とある。その下に、祭りの優勝賞品の案内。注意書きの配置には改善の余地がある。"
+				},
+				{
+					"choice": 1,
+					"event": "approach",
+					"responses": [
+						"足跡を確かめる。捜索を優先する",
+						"薬草の分布を見ながら進む。採取を優先する"
+					],
+					"speaker": "語り",
+					"text": "道の脇には薬草、ぬかるみには一人分の足跡がある。どちらに目を向けよう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "良い株の位置を覚えながら登る。効率のよい寄り道だ。効率のよい捜索かどうかは、あとで考える。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 3,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "",
+					"text": ""
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡の先で声をかけ続けると、岩の棚から返事があった。捜索とは、ときに地道に声を張る仕事だ。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "もう捜索が来たのか。助かった。まだ明るいうちに帰れそうだね。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "君も素材を見ながら来たのか。わかるよ。道の脇にも、いい株があっただろう。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "そこで意気投合すると、捜索願が二枚になる。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "薬草は種類ごとに包んだほうが傷みにくい。見分けは任せてくれ。ただ、帰り道は任せたい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術の知識は確かだった。山道が研究室ほど平らでないことを、見積もりに入れ忘れただけだ。"
+				},
+				{
+					"choice": 1,
+					"event": "aid",
+					"responses": [
+						"レオに応急用の湿布を調合してもらう",
+						"時間をかけ、肩を貸して道まで戻す"
+					],
+					"speaker": "語り",
+					"text": "レオは足をひねっているが、意識ははっきりしている。棚から道まで、支えがあれば戻れそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "語り",
+					"text": "一歩ずつ、休みながら引き返した。派手さはないが、救出の評価に派手さという欄はない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰路は下りだ。楽になるかと思えば、足元を見る仕事は上りと変わらない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "手ぶらで来てくれたんだね。"
+				},
+				{
+					"choice": 0,
+					"event": "descent",
+					"responses": [
+						"休憩を取りつつ、そのまま街へ向かう"
+					],
+					"speaker": "ムハンマド",
+					"text": "帰りは一人増える。荷物としては十分だ。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "余計な寄り道はせず、歩ける速さで下った。街の屋根が見えたときには、二人とも少し口数が増えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "祭りの受付へ戻る。レオの無事は家族にも伝えられた。捜索願の紙は、ようやく役目を終えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "薬草の提出はなし。採取実績は空欄だが、捜索依頼のほうには「完了」と記された。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "素材の仕入れ計画は書き直すよ。次は、帰路の欄を先に埋める。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "【手ぶらの救助者】薬草は持ち帰らなかった。人を一人連れ帰ったのだから、空振りではないだろう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "捜索の遅れは小さく、明るいうちに救出できた。山にいる時間は、短いほうがありがたい日もある。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "肩を貸して進んだ、地道な救助だった。近道がなくても、一歩ずつなら帰って来られる。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月後には、また薬草祭りが来る。その前に、レオが登山口の注意書きを読むことを願おう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "――どうでもいい冒険、おしまい。"
+				}
+			]
+		},
+		{
+			"grade": "excellent",
+			"id": "quality_harvest",
+			"state": {
+				"aid_method": "alchemy",
+				"delay": 2,
+				"herbs": 4,
+				"history": [
+					"priority_search",
+					"stream_gather",
+					"ridge_gather",
+					"aid_alchemy",
+					"sort"
+				],
+				"priority": "search",
+				"quality": 3,
+				"rescued": true,
+				"rope_found": false,
+				"search_effort": 1,
+				"shortcut_used": false,
+				"trail_known": false,
+				"visited": [
+					"stream",
+					"ridge"
+				]
+			},
+			"steps": [
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月に一度、街は「薬草祭り」でにぎわう。山で採った薬草の質と量を競う、実に健康的な祭りだ。山から帰って来られれば。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術師レオは考えた。「自分で素材を回収すれば、仕入れの無駄がなくなる」。調合台の上なら、だいたい正しい計算だった。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "彼は山で消息を絶ち、家族は捜索願を出した。冒険者ムハンマドは、何となくその依頼を引き受けた。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "人を一人。余裕があれば薬草も。まずは山へ行こう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "登山口には「日暮れまでに戻ること」とある。その下に、祭りの優勝賞品の案内。注意書きの配置には改善の余地がある。"
+				},
+				{
+					"choice": 0,
+					"event": "approach",
+					"responses": [
+						"足跡を確かめる。捜索を優先する",
+						"薬草の分布を見ながら進む。採取を優先する"
+					],
+					"speaker": "語り",
+					"text": "道の脇には薬草、ぬかるみには一人分の足跡がある。どちらに目を向けよう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡は山腹へ続いていた。薬草は逃げない。遭難者も、できれば動かないでほしい。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 1,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "",
+					"text": ""
+				},
+				{
+					"choice": -1,
+					"event": "stream",
+					"responses": [],
+					"speaker": "語り",
+					"text": "沢のそばで白い石が三つ並んでいる。苔に隠れかけているが、人の手で置かれたものだ。"
+				},
+				{
+					"choice": 1,
+					"event": "stream",
+					"responses": [
+						"石の目印と周囲の足跡を調べる",
+						"水際の薬草を二束採る"
+					],
+					"speaker": "語り",
+					"text": "水際には採りやすい薬草もある。濡れた葉を、そのまま袋へ詰めるわけにはいかなさそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "stream",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二束を袋へ。水気を払うのに手間取り、石の並びは調べずに戻った。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 1,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "語り",
+					"text": "分かれ道まで戻った。まだ見ていない場所と、足跡の続きがある。"
+				},
+				{
+					"choice": 1,
+					"event": "ridge",
+					"responses": [
+						"ロープを回収し、周囲を調べる",
+						"足場に気をつけて紫の薬草を採る"
+					],
+					"speaker": "語り",
+					"text": "岩場の枝に、細いロープが引っかかっている。下には見慣れない紫色の薬草。どちらも誰かが欲しがりそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "ridge",
+					"responses": [],
+					"speaker": "語り",
+					"text": "良質な二束を採った。足場を選んで遠回りしたので、時間もそれなりに採られた。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 1,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "語り",
+					"text": "分かれ道まで戻った。まだ見ていない場所と、足跡の続きがある。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡の先で声をかけ続けると、岩の棚から返事があった。捜索とは、ときに地道に声を張る仕事だ。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "もう捜索が来たのか。助かった。まだ明るいうちに帰れそうだね。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "先に足跡を追ってくれたのか。その判断は正しい。大変正しい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "薬草は種類ごとに包んだほうが傷みにくい。見分けは任せてくれ。ただ、帰り道は任せたい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術の知識は確かだった。山道が研究室ほど平らでないことを、見積もりに入れ忘れただけだ。"
+				},
+				{
+					"choice": 0,
+					"event": "aid",
+					"responses": [
+						"レオに応急用の湿布を調合してもらう",
+						"時間をかけ、肩を貸して道まで戻す"
+					],
+					"speaker": "語り",
+					"text": "レオは足をひねっているが、意識ははっきりしている。棚から道まで、支えがあれば戻れそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "手持ちの試薬なら、冷やす湿布が作れる。混ぜる順番だけは守ってくれ。ここは私の専門だ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "語り",
+					"text": "正確な指示で湿布ができた。痛みが和らいだレオに肩を貸し、慎重に道へ戻る。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰路は下りだ。楽になるかと思えば、足元を見る仕事は上りと変わらない。"
+				},
+				{
+					"choice": 0,
+					"event": "descent",
+					"responses": [
+						"歩ける場所で休み、レオに薬草を選別してもらう",
+						"休憩を取りつつ、そのまま街へ向かう"
+					],
+					"speaker": "レオ",
+					"text": "袋の中、少し見せてくれるか。混ざった葉を除けば、持ち帰るあいだも傷みにくい。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "レオは葉の裏まで確かめ、傷んだ部分を手早く分けた。机がなくても、専門家は専門家だった。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "祭りの受付へ戻る。レオの無事は家族にも伝えられた。捜索願の紙は、ようやく役目を終えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "薬草は量も質も十分。受付の評価欄に、気持ちのよい丸が並ぶ。救助のついでとしては上出来だ。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "素材の仕入れ計画は書き直すよ。次は、帰路の欄を先に埋める。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "【救助と収穫】遭難者も薬草も、無事に街へ。祭りの成果としては、ずいぶん欲張りな帰還になった。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "捜索の遅れは小さく、明るいうちに救出できた。山にいる時間は、短いほうがありがたい日もある。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰還を支えたのはレオの調合だった。遭難した理由と、彼の腕前は、別々に評価してよさそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月後には、また薬草祭りが来る。その前に、レオが登山口の注意書きを読むことを願おう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "――どうでもいい冒険、おしまい。"
+				}
+			]
+		},
+		{
+			"grade": "modest",
+			"id": "quantity_low_quality",
+			"state": {
+				"aid_method": "support",
+				"delay": 3,
+				"herbs": 5,
+				"history": [
+					"priority_search",
+					"meadow_gather",
+					"stream_gather",
+					"aid_support",
+					"return"
+				],
+				"priority": "search",
+				"quality": 1,
+				"rescued": true,
+				"rope_found": false,
+				"search_effort": 1,
+				"shortcut_used": false,
+				"trail_known": false,
+				"visited": [
+					"meadow",
+					"stream"
+				]
+			},
+			"steps": [
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月に一度、街は「薬草祭り」でにぎわう。山で採った薬草の質と量を競う、実に健康的な祭りだ。山から帰って来られれば。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術師レオは考えた。「自分で素材を回収すれば、仕入れの無駄がなくなる」。調合台の上なら、だいたい正しい計算だった。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "彼は山で消息を絶ち、家族は捜索願を出した。冒険者ムハンマドは、何となくその依頼を引き受けた。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "人を一人。余裕があれば薬草も。まずは山へ行こう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "登山口には「日暮れまでに戻ること」とある。その下に、祭りの優勝賞品の案内。注意書きの配置には改善の余地がある。"
+				},
+				{
+					"choice": 0,
+					"event": "approach",
+					"responses": [
+						"足跡を確かめる。捜索を優先する",
+						"薬草の分布を見ながら進む。採取を優先する"
+					],
+					"speaker": "語り",
+					"text": "道の脇には薬草、ぬかるみには一人分の足跡がある。どちらに目を向けよう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡は山腹へ続いていた。薬草は逃げない。遭難者も、できれば動かないでほしい。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 0,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "",
+					"text": ""
+				},
+				{
+					"choice": -1,
+					"event": "meadow",
+					"responses": [],
+					"speaker": "語り",
+					"text": "草地に薬草が群れている。摘みやすい高さ、運びやすい量。祭りに参加する植物として模範的だ。"
+				},
+				{
+					"choice": 0,
+					"event": "meadow",
+					"responses": [
+						"良い株を選んで採る",
+						"採取を控え、踏み跡を調べる"
+					],
+					"speaker": "語り",
+					"text": "その間を、踏みつぶされた草が細く横切っている。"
+				},
+				{
+					"choice": -1,
+					"event": "meadow",
+					"responses": [],
+					"speaker": "語り",
+					"text": "袋に三束の薬草を収めた。選別は順調、捜索はそのぶんお休みになった。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 0,
+					"event": "explore",
+					"responses": [
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "語り",
+					"text": "分かれ道まで戻った。まだ見ていない場所と、足跡の続きがある。"
+				},
+				{
+					"choice": -1,
+					"event": "stream",
+					"responses": [],
+					"speaker": "語り",
+					"text": "沢のそばで白い石が三つ並んでいる。苔に隠れかけているが、人の手で置かれたものだ。"
+				},
+				{
+					"choice": 1,
+					"event": "stream",
+					"responses": [
+						"石の目印と周囲の足跡を調べる",
+						"水際の薬草を二束採る"
+					],
+					"speaker": "語り",
+					"text": "水際には採りやすい薬草もある。濡れた葉を、そのまま袋へ詰めるわけにはいかなさそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "stream",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二束を袋へ。水気を払うのに手間取り、石の並びは調べずに戻った。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 1,
+					"event": "explore",
+					"responses": [
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "語り",
+					"text": "分かれ道まで戻った。まだ見ていない場所と、足跡の続きがある。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡の先で声をかけ続けると、岩の棚から返事があった。捜索とは、ときに地道に声を張る仕事だ。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "助かった……。日が傾くたびに、今日の計画を下方修正していたところだ。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "先に足跡を追ってくれたのか。その判断は正しい。大変正しい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "薬草は種類ごとに包んだほうが傷みにくい。見分けは任せてくれ。ただ、帰り道は任せたい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術の知識は確かだった。山道が研究室ほど平らでないことを、見積もりに入れ忘れただけだ。"
+				},
+				{
+					"choice": 1,
+					"event": "aid",
+					"responses": [
+						"レオに応急用の湿布を調合してもらう",
+						"時間をかけ、肩を貸して道まで戻す"
+					],
+					"speaker": "語り",
+					"text": "レオは足をひねっているが、意識ははっきりしている。棚から道まで、支えがあれば戻れそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "語り",
+					"text": "一歩ずつ、休みながら引き返した。派手さはないが、救出の評価に派手さという欄はない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰路は下りだ。楽になるかと思えば、足元を見る仕事は上りと変わらない。"
+				},
+				{
+					"choice": 1,
+					"event": "descent",
+					"responses": [
+						"歩ける場所で休み、レオに薬草を選別してもらう",
+						"休憩を取りつつ、そのまま街へ向かう"
+					],
+					"speaker": "レオ",
+					"text": "袋の中、少し見せてくれるか。混ざった葉を除けば、持ち帰るあいだも傷みにくい。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "余計な寄り道はせず、歩ける速さで下った。街の屋根が見えたときには、二人とも少し口数が増えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "祭りの受付へ戻る。レオの無事は家族にも伝えられた。捜索願の紙は、ようやく役目を終えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "薬草はささやかな成果になった。受付は量と質を確かめ、持ち帰った分を記録した。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "素材の仕入れ計画は書き直すよ。次は、帰路の欄を先に埋める。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "【小さな収穫】レオを救い、薬草も持ち帰った。祭りの評価は控えめ、依頼の重荷はもうない。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "救出は日暮れ間際。採取に使った時間のぶん、家族を長く待たせた。次の祭りには、この順番も検討しよう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "肩を貸して進んだ、地道な救助だった。近道がなくても、一歩ずつなら帰って来られる。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月後には、また薬草祭りが来る。その前に、レオが登山口の注意書きを読むことを願おう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "――どうでもいい冒険、おしまい。"
+				}
+			]
+		},
+		{
+			"grade": "empty",
+			"id": "footprints_only",
+			"state": {
+				"aid_method": "support",
+				"delay": 0,
+				"herbs": 0,
+				"history": [
+					"priority_search",
+					"meadow_search",
+					"aid_support",
+					"return"
+				],
+				"priority": "search",
+				"quality": 0,
+				"rescued": true,
+				"rope_found": false,
+				"search_effort": 2,
+				"shortcut_used": false,
+				"trail_known": false,
+				"visited": [
+					"meadow"
+				]
+			},
+			"steps": [
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月に一度、街は「薬草祭り」でにぎわう。山で採った薬草の質と量を競う、実に健康的な祭りだ。山から帰って来られれば。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術師レオは考えた。「自分で素材を回収すれば、仕入れの無駄がなくなる」。調合台の上なら、だいたい正しい計算だった。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "語り",
+					"text": "彼は山で消息を絶ち、家族は捜索願を出した。冒険者ムハンマドは、何となくその依頼を引き受けた。"
+				},
+				{
+					"choice": -1,
+					"event": "prologue",
+					"responses": [],
+					"speaker": "ムハンマド",
+					"text": "人を一人。余裕があれば薬草も。まずは山へ行こう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "登山口には「日暮れまでに戻ること」とある。その下に、祭りの優勝賞品の案内。注意書きの配置には改善の余地がある。"
+				},
+				{
+					"choice": 0,
+					"event": "approach",
+					"responses": [
+						"足跡を確かめる。捜索を優先する",
+						"薬草の分布を見ながら進む。採取を優先する"
+					],
+					"speaker": "語り",
+					"text": "道の脇には薬草、ぬかるみには一人分の足跡がある。どちらに目を向けよう。"
+				},
+				{
+					"choice": -1,
+					"event": "approach",
+					"responses": [],
+					"speaker": "語り",
+					"text": "足跡は山腹へ続いていた。薬草は逃げない。遭難者も、できれば動かないでほしい。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 0,
+					"event": "explore",
+					"responses": [
+						"薬草の草地を調べる",
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "",
+					"text": ""
+				},
+				{
+					"choice": -1,
+					"event": "meadow",
+					"responses": [],
+					"speaker": "語り",
+					"text": "草地に薬草が群れている。摘みやすい高さ、運びやすい量。祭りに参加する植物として模範的だ。"
+				},
+				{
+					"choice": 1,
+					"event": "meadow",
+					"responses": [
+						"良い株を選んで採る",
+						"採取を控え、踏み跡を調べる"
+					],
+					"speaker": "語り",
+					"text": "その間を、踏みつぶされた草が細く横切っている。"
+				},
+				{
+					"choice": -1,
+					"event": "meadow",
+					"responses": [],
+					"speaker": "語り",
+					"text": "踏み跡の先に、滑った靴の跡がある。景色を楽しむための歩幅ではなさそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "explore",
+					"responses": [],
+					"speaker": "語り",
+					"text": "山腹で道が分かれる。草地、沢、岩場。風が葉を鳴らす。少なくとも葉は元気そうだ。"
+				},
+				{
+					"choice": 2,
+					"event": "explore",
+					"responses": [
+						"沢の周囲を調べる",
+						"岩場の落とし物を調べる",
+						"足跡の先へ進み、レオの捜索を進める"
+					],
+					"speaker": "語り",
+					"text": "分かれ道まで戻った。まだ見ていない場所と、足跡の続きがある。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "調べた跡をたどった先に、岩の棚が見えた。呼びかけると、ようやく返事が聞こえた。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "もう捜索が来たのか。助かった。まだ明るいうちに帰れそうだね。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "先に足跡を追ってくれたのか。その判断は正しい。大変正しい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "薬草は種類ごとに包んだほうが傷みにくい。見分けは任せてくれ。ただ、帰り道は任せたい。"
+				},
+				{
+					"choice": -1,
+					"event": "discovery",
+					"responses": [],
+					"speaker": "語り",
+					"text": "錬金術の知識は確かだった。山道が研究室ほど平らでないことを、見積もりに入れ忘れただけだ。"
+				},
+				{
+					"choice": 1,
+					"event": "aid",
+					"responses": [
+						"レオに応急用の湿布を調合してもらう",
+						"時間をかけ、肩を貸して道まで戻す"
+					],
+					"speaker": "語り",
+					"text": "レオは足をひねっているが、意識ははっきりしている。棚から道まで、支えがあれば戻れそうだ。"
+				},
+				{
+					"choice": -1,
+					"event": "aid",
+					"responses": [],
+					"speaker": "語り",
+					"text": "一歩ずつ、休みながら引き返した。派手さはないが、救出の評価に派手さという欄はない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "帰路は下りだ。楽になるかと思えば、足元を見る仕事は上りと変わらない。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "手ぶらで来てくれたんだね。"
+				},
+				{
+					"choice": 0,
+					"event": "descent",
+					"responses": [
+						"休憩を取りつつ、そのまま街へ向かう"
+					],
+					"speaker": "ムハンマド",
+					"text": "帰りは一人増える。荷物としては十分だ。"
+				},
+				{
+					"choice": -1,
+					"event": "descent",
+					"responses": [],
+					"speaker": "語り",
+					"text": "余計な寄り道はせず、歩ける速さで下った。街の屋根が見えたときには、二人とも少し口数が増えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "祭りの受付へ戻る。レオの無事は家族にも伝えられた。捜索願の紙は、ようやく役目を終えた。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "語り",
+					"text": "薬草の提出はなし。採取実績は空欄だが、捜索依頼のほうには「完了」と記された。"
+				},
+				{
+					"choice": -1,
+					"event": "appraisal",
+					"responses": [],
+					"speaker": "レオ",
+					"text": "素材の仕入れ計画は書き直すよ。次は、帰路の欄を先に埋める。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "【手ぶらの救助者】薬草は持ち帰らなかった。人を一人連れ帰ったのだから、空振りではないだろう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "捜索の遅れは小さく、明るいうちに救出できた。山にいる時間は、短いほうがありがたい日もある。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "肩を貸して進んだ、地道な救助だった。近道がなくても、一歩ずつなら帰って来られる。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "二か月後には、また薬草祭りが来る。その前に、レオが登山口の注意書きを読むことを願おう。"
+				},
+				{
+					"choice": -1,
+					"event": "ending",
+					"responses": [],
+					"speaker": "語り",
+					"text": "――どうでもいい冒険、おしまい。"
+				}
+			]
+		}
+	],
+	"source_sha256": "d1665ba8e5a69b4f1883a34ef859f6404af54e407fa429b773273f85bcc80728"
+}

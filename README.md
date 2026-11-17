@@ -2,16 +2,16 @@
 
 薬草を探すか、遭難者を探すか。行動履歴で後の会話・選択肢・結末が変わる、日本語のテキスト選択型RPGです。シナリオは作者校正前の生成初稿です。
 
-**Ver.0.2**：既存MVPに、取り外し・交換可能な背景とBGMを追加しました。ゲーム進行・状態管理・11イベントの本文・セーブ仕様は変更していません。
+**Ver.0.3**：全11イベントを編集診断し、履歴や評価との不整合を中心に5イベントの8段落だけ修正しました。6イベントは全文を維持し、ゲーム進行・状態管理・分岐・セーブ・Ver.0.2のメディア構成は変更していません。正式な作者校正前の稿です。
 
 ## 起動
 
 1. [Godot 4.7.2 stable（標準版）](https://github.com/godotengine/godot-builds/releases/tag/4.7.2-stable) を用意します。.NET版は不要です。
-2. このブランチを取得し、Godotのインポートから `project.godot` を開きます。
+2. 現在のmainブランチを取得し、Godotのインポートから `project.godot` を開きます。
 3. 初回インポートが終わったら **F5** で起動します。プラグインは設定済みで、再ダウンロード不要です。
 
 ```bash
-git clone --branch develop/media-v0.2 https://github.com/Show-alcadeias/yakusou-maturi.git
+git clone --branch main https://github.com/Show-alcadeias/yakusou-maturi.git
 cd yakusou-maturi
 godot --headless --editor --path . --quit
 godot --path .
@@ -58,12 +58,17 @@ GODOT_BIN=/path/to/Godot_v4.7.2-stable_linux.x86_64 bash tests/run.sh
 # 描画・マウス・キー入力のテスト（表示サーバーが必要）
 godot --path . --script tests/gui_tests.gd
 godot --path . --script tests/media_gui_tests.gd
+godot --path . --script tests/editorial_gui_tests.gd
 # 音声デバイスのないテスト環境では --audio-driver Dummy を追加可能
 ```
 
-既存テスト：**734経路完走、19,052チェック成功**。追加メディアテスト：**109チェック成功、8構成でUI完走、11イベントの再開を検証**。メディア関連ファイルを取り除いた別コピーでも既存全経路を完走しました。
+既存テスト：**734経路完走、19,052チェック成功**。メディアテスト：**109チェック成功、8構成でUI完走、11イベントの再開を検証**。編集比較：**8代表ルート、1,533チェック成功**。条件・応答・状態変更命令が旧稿と同じこと、同じ選択で同じ最終状態になることを検証します。
 
-GUIは既存28＋追加10チェック成功。背景の実描画とミキサーの非ゼロPCMを確認しました。Webでも背景ピクセルの変化とWebAudio出力を確認しています。実スピーカーでの聴取は未検証です。詳しくは [MEDIA_EXTENSION_REVIEW](docs/MEDIA_EXTENSION_REVIEW.md)、MVP時点の検証記録は [TEST_RESULTS](docs/TEST_RESULTS.md) を参照してください。
+GUIは既存28＋メディア10チェックに加え、長文を読む3ルートで132チェック成功。背景の実描画とミキサーの非ゼロPCMを確認しました。Webでも背景ピクセルの変化とWebAudio出力を確認しています。実スピーカーでの聴取や文章の面白さを自動テストで証明したものではありません。最新結果は [EDITORIAL_REVIEW_V0.3](docs/EDITORIAL_REVIEW_V0.3.md) に記録しています。
+
+編集比較は旧稿も公式DMで実行し、通常のテストでは保存済みの前後JSONを上書きしません。作業用の再実行結果は `work/editorial_after.json` に出します。読める表示文は [修正前](docs/editorial/v03/before.md)／[修正後](docs/editorial/v03/after.md)／[表示差分](docs/editorial/v03/changes.diff) を参照してください。
+
+作者確認用のMarkdownは `python3 tools/render_editorial_snapshots.py` で保存済みJSONから再生成できます。修正前の画面を再確認する場合は `godot --path . --script tests/editorial_gui_tests.gd -- --before`。これは固定した旧稿をDMへ渡し、現行のゲーム本文を変更しません。
 
 ## 書き出し
 
@@ -89,6 +94,8 @@ Webはスレッド無効のプリセットです。WebGL 2対応ブラウザが�
 - [IMPLEMENTATION_REVIEW](docs/IMPLEMENTATION_REVIEW.md)：計画と実装の比較、技術的負債
 - [MEDIA_EXTENSION_PLAN](docs/MEDIA_EXTENSION_PLAN.md)：Ver.0.2の実装前設計
 - [MEDIA_EXTENSION_REVIEW](docs/MEDIA_EXTENSION_REVIEW.md)：後付け・交換・未接続の検証と結果
+- [EDITORIAL_AUDIT_V0.3](docs/EDITORIAL_AUDIT_V0.3.md)：全11イベントの修正前診断と編集計画
+- [EDITORIAL_REVIEW_V0.3](docs/EDITORIAL_REVIEW_V0.3.md)：8段落の変更前後、維持した表現、UI評価、作者確認事項
 - [story.dialogue](story/story.dialogue)：本文・条件付き応答の正本
 
 ![タイトル画面](docs/screenshots/title.png)

@@ -19,3 +19,9 @@ if rg -n 'SCRIPT ERROR|^ERROR:|^FAIL:' work/media.log; then
   exit 1
 fi
 rg -q 'MEDIA RESULT checks=[0-9]+ failures=0 completed_ui_modes=8 restored_events=11' work/media.log
+timeout 180s "$GODOT_BIN" --headless --path . --script tests/editorial_tests.gd > work/editorial.log 2>&1
+cat work/editorial.log
+if rg -n 'SCRIPT ERROR|^ERROR:|^FAIL:' work/editorial.log; then
+  exit 1
+fi
+rg -q 'EDITORIAL RESULT checks=[0-9]+ failures=0 routes=8 mode=compare' work/editorial.log
